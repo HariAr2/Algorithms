@@ -1,3 +1,13 @@
+/*
+Find the largest three distinct elements in an array
+Given an array with all distinct elements, find the largest three elements.
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(1). 
+
+Input: arr[] = {10, 4, 3, 50, 23, 90}
+Output: 90, 50, 23
+*/
+
 #include <iostream>
 using namespace std;
 #include <stdlib.h>

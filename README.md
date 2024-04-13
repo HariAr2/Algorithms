@@ -1,4 +1,6 @@
 # Algorithms
 
-Algorithms which i used are in this repo
+Algorithms which I used and Learning are in this Repo
 
+
+   
