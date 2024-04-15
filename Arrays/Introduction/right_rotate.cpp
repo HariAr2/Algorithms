@@ -2,6 +2,7 @@
 using namespace std;
 #include<stdlib.h>
 #include<vector>
+
 //Print array after it is right rotated K times
 void roatate(int arr[],int d,int n){
     d=d%n;
