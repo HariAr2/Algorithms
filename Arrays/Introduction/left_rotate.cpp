@@ -4,13 +4,13 @@ using namespace std;
 #include<vector>
 //Program for array left rotation by d positions.
 void left_rotate(int arr[],int d,int n){
-    int temp[n];
-    int k=0;
+    int temp[n]; // to create an Temp array
+    int k=0; 
     for(int i=d;i<n;i++){
         temp[k] = arr[i];
         k++;
     }
-    for(int i=0;i<d;i++){
+    for(int i=0;i<d;i++){ 
         temp[k] = arr[i];
         k++;
     }
