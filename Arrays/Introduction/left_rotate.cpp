@@ -31,4 +31,5 @@ int main(){
     cout<<"Enter the value of d: ";
     cin>>d;
     left_rotate(arr,d,n);
+    return 0;
 }

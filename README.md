@@ -1,7 +1,7 @@
 # Algorithms
 
-Algorithms which I used and Learning are in this Repos
+Algorithms which I used and Learning are in this Repo
+
 
  
-
-    
+ 
