@@ -38,3 +38,30 @@ Output: 1
 //solution
 
 
+class Solution {
+public:
+    int maxArea(vector<int>& h) {
+        int maxArea = 0;
+        int i=0;
+        int j=h.size()-1;
+        while(i<j){
+            int currHeight = 0;
+            int width = j-i;
+            int currArea = 0;
+            if(h[i]<h[j]){
+                currHeight = h[i];
+                currArea = currHeight * width;
+                i++;
+            }
+            else{
+                currHeight = h[j];
+                currArea = currHeight * width;
+                j--;
+            }
+            if(currArea>maxArea){
+                maxArea = currArea;
+            }
+        }
+        return maxArea;
+    }
+};
