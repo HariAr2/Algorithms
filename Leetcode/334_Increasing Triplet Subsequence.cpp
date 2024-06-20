@@ -27,3 +27,25 @@ Output: true
 Explanation: The triplet (3, 4, 5) is valid because nums[3] == 0 < nums[4] == 4 < nums[5] == 6.
 
 */
+
+//solution
+
+
+class Solution {
+public:
+    bool increasingTriplet(vector<int>& nums) {
+        int first = INT_MAX,second = INT_MAX;
+        for(int num : nums){
+            if(num<=first){
+                first = num;
+            }
+            else if(num<=second){
+                second = num;
+            }
+            else{
+                return true;
+            }
+        }
+        return false;
+    }
+};
