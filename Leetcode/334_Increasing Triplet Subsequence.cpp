@@ -21,6 +21,8 @@ Example 2:
 
 Input: nums = [5,4,3,2,1]
 Output: false
+
+
 Explanation: No triplet exists.
 Example 3:
 
