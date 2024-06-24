@@ -20,7 +20,7 @@ Explanation: Any triplet where i < j < k is valid.
 Example 2:
 
 Input: nums = [5,4,3,2,1]
-Output: false
+Output: false\\
 
 
 Explanation: No triplet exists.
