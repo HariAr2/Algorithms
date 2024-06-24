@@ -15,6 +15,8 @@ Example 1:
 Input: nums = [1,2,3,4,5]
 Output: true
 Explanation: Any triplet where i < j < k is valid.
+
+
 Example 2:
 
 Input: nums = [5,4,3,2,1]
