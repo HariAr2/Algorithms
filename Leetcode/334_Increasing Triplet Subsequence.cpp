@@ -12,8 +12,6 @@ Given an integer array nums, return true if there exists a triple of indices (i,
 
 Example 1:
  
-
-  
 Input: nums = [1,2,3,4,5]
 Output: true
 Explanation: Any triplet where i < j < k is valid.
