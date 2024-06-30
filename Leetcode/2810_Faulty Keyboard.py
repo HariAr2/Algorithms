@@ -8,7 +8,6 @@ You are given a 0-indexed string s, and you type each character of s using your 
 Return the final string that will be present on your laptop screen.
 
  
-
 Example 1:
 
 Input: s = "string"
