@@ -14,6 +14,8 @@ Example 1:
 
 Input: s = "string"
 Output: "rtsng"
+
+
 Explanation: 
 After typing first character, the text on the screen is "s".
 After the second character, the text is "st". 
