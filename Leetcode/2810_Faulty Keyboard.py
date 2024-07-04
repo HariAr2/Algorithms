@@ -17,7 +17,6 @@ Explanation:
 After typing first character, the text on the screen is "s".
 After the second character, the text is "st". 
 
-
 After the third character, the text is "str".
 Since the fourth character is an 'i', the text gets reversed and becomes "rts".
 After the fifth character, the text is "rtsn". 
