@@ -10,8 +10,6 @@ Return the final string that will be present on your laptop screen.
  
 Example 1: 
 
-
-
 Input: s = "string"
 Output: "rtsng"
 
