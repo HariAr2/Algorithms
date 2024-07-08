@@ -56,3 +56,20 @@ Right sum = nums[1] + nums[2] = 1 + -1 = 0
 //solution
 
 
+class Solution {
+public:
+    int pivotIndex(vector<int>& nums) {
+        int totalSum =0,leftSum = 0;
+        for(int nums : nums){
+            totalSum += nums;
+        }
+        for(int i=0;i<nums.size();i++){
+            
+            if(leftSum == totalSum - leftSum -nums[i]){
+                return i;
+            }
+            leftSum +=nums[i];
+        }
+        return -1;
+    }
+};
