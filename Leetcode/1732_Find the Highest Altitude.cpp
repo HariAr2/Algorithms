@@ -34,7 +34,6 @@ n == gain.length
 
 */
 
-
 //solution 
 
 class Solution {
@@ -51,3 +50,4 @@ public:
         return n;
     }
 };
+
