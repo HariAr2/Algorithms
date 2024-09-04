@@ -7,7 +7,6 @@ Example 1:
 Input: s = "hello"
 Output: "holle"
 Example 2:
-
 Input: s = "leetcode"
 Output: "leotcede"
  
